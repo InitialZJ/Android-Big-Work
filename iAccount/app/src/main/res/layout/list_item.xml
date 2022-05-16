@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/icon_shouru_type_gongzi"
+        android:layout_gravity="center_vertical"/>
+    <TextView
+        android:id="@+id/tv_kind"
+        android:layout_width="85dp"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:text="生活费"
+        android:textSize="20sp"
+        android:layout_gravity="center_vertical"/>
+    <TextView
+        android:id="@+id/tv_number"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:text="666.66"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="right"
+        android:layout_gravity="center_vertical"/>
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:padding="12dp"
+        android:text="06.03&#160;17:22"
+        android:textSize="18sp"
+        android:layout_gravity="center_vertical"/>
+
+</LinearLayout>

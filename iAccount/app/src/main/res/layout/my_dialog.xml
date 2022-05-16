@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="设置金额"
+        android:textSize="20sp"
+        android:layout_alignParentTop="true"
+        android:background="#F78B00"
+        android:textColor="#FFFFFF"
+        android:gravity="center"/>
+    <EditText
+        android:id="@+id/shouru_number"
+        android:layout_below="@id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="#FF0000"
+        android:textColorHint="#FF0000"
+        android:textStyle="bold"
+        android:theme="@style/EditText_shouru"
+        android:hint="0.00"
+        android:inputType="number|numberDecimal"/>
+    <LinearLayout
+        android:layout_below="@id/shouru_number"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="30dp"
+                android:text="取消"
+                android:textSize="18sp"
+                android:textColor="#909399"
+                android:background="@drawable/shape_btn1"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btn_confirm"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="30dp"
+                android:text="确定"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/shape_btn2"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
